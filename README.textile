@@ -1,0 +1,5 @@
+h2. wet_sample_jqui Textpattern plugin
+
+A showcase for patterns and interfaces around Textpattern and jQuery UI. Work in progress.
+
+Requires Textpattern 4.6-dev.

@@ -1,5 +1,5 @@
 <?php
-$plugin['version'] = '0.1';
+$plugin['version'] = '0.2';
 $plugin['author'] = 'Robert Wetzlmayr';
 $plugin['author_uri'] = 'http://wetzlmayr.com/';
 $plugin['description'] = 'Sample Textpattern plugin showcasing jQuery UI';
@@ -47,6 +47,7 @@ class wet_sample_jqui
 	{
 		pagetop(gTxt(__CLASS__));
 		echo self::dialog();
+		echo self::form();
 	}
 
 	/**
@@ -64,6 +65,18 @@ class wet_sample_jqui
 			tag('I enjoy your site very much', 'div', array('class' => 'txp-dialog modal', 'id' => 'modal1', 'title' => 'Donald Swain says')).
 			graf(href('open modal dialogue', '#', array('data-txp-dialog' => '#modal1')));
 
+	}
+
+	/**
+	 * Form elements.
+	 */
+	static function form()
+	{
+		return
+			// Build the markup for a non-modal dialog
+			form(
+				inputLabel('date1', fInput('text', 'date1', '2012-12-24', 'txp-datepicker', '', '', INPUT_REGULAR, '', 'date1'), 'And so this is&hellip;')
+			);
 	}
 }
 

@@ -1,4 +1,4 @@
-# wet_sample_jqui v0.1
+# wet_sample_jqui v0.2
 # Sample Textpattern plugin showcasing jQuery UI
 # Robert Wetzlmayr
 # http://wetzlmayr.com/
@@ -9,20 +9,22 @@
 # Paste the following text into the 'Install plugin' box:
 # ......................................................................
 
-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
+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

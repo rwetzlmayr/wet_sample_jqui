@@ -1,5 +1,5 @@
-h2. wet_sample_jqui Textpattern plugin
+h1. 301 Moved Permanently
 
-A showcase for patterns and interfaces around Textpattern and jQuery UI. Work in progress.
+The repository has been moved to https://codeberg.org/rwetzlmayr/wet_sample_jqui.
 
-Requires Textpattern 4.6-dev.
+This page is left as a placeholder to guide users to the new location.
